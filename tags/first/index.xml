@@ -3,7 +3,7 @@
   <channel>
       <title>First on adams code foo </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://localhost:1313/tags/first/</link>
+    <link>http://advincze.github.io/tags/first/</link>
     <language>en-us</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>first</title>
-      <link>http://localhost:1313/post/first/</link>
+      <link>http://advincze.github.io/post/first/</link>
       <pubDate>Sat, 21 Mar 2015 06:34:54 CET</pubDate>
       
-      <guid>http://localhost:1313/post/first/</guid>
+      <guid>http://advincze.github.io/post/first/</guid>
       <description>Dear internet friends, this is a blog. this is inlie code $ hugo help | grep foo</description>
     </item>
     
