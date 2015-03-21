@@ -1,46 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Advincze&#39;s blog</title>
+      <title> on adams code foo </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Advincze&#39;s blog</description>
-    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Mar 2015 07:02:46 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <updated>Sat, 21 Mar 2015 08:44:52 CET</updated>
     
     <item>
-      <title>My second Post</title>
-      <link>http://localhost:1313/post/post-title/</link>
-      <pubDate>Sat, 21 Mar 2015 07:02:46 +0100</pubDate>
+      <title>contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Sat, 21 Mar 2015 08:44:52 CET</pubDate>
       
-      <guid>http://localhost:1313/post/post-title/</guid>
-      <description>&lt;p&gt;hello internet
-welcome to my blog&lt;/p&gt;
-</description>
+      <guid>http://localhost:1313/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 21 Mar 2015 08:44:23 CET</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>first</title>
       <link>http://localhost:1313/post/first/</link>
-      <pubDate>Sat, 21 Mar 2015 06:34:54 +0100</pubDate>
+      <pubDate>Sat, 21 Mar 2015 06:34:54 CET</pubDate>
       
       <guid>http://localhost:1313/post/first/</guid>
-      <description>
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;this is inlie code&lt;/code&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;da-code:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;da code&lt;/h1&gt;
-
-&lt;pre&gt;&lt;code&gt;$ hugo help | grep foo
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://core0.staticworld.net/images/article/2013/08/lil_bub_grumpy_cat-100052024-gallery.jpg&#34; alt=&#34;lil bub and grumpy cat&#34; title=&#34;da title&#34; /&gt;
-&lt;/p&gt;
-</description>
+      <description>Dear internet friends, this is a blog. this is inlie code $ hugo help | grep foo</description>
     </item>
     
   </channel>
 </rss>
+
