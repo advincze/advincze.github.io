@@ -7,7 +7,7 @@ title: "AWS Athena manifest"
 slug: "athena-manifest"
 ---
 
-Athena allows you to process data using sql that is stored in s3. Usually you would specify an s3 path (bucket + prefix) below which you store the objects that belong to the table. Files adhering to your input format would be processed when you access the data. Sometimes the location of your data does not adhere to this convention.  The objects might be in different locations, or you would want to include some objects to a table or partition. For these cases an s3 inventory can be used.
+Athena allows you to process data using sql that is stored in s3. Usually you would specify an s3 path (bucket + prefix) below which you store the objects that belong to the table. Sometimes the location of your data does not adhere to this convention.  The objects might be in different locations, or you would want to include some objects to a table or partition. For these cases an s3 symlink inventory can be used.
 
 Let's say you have multiple objects in a single bucket and you only want to process one of them:
 
