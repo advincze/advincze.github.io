@@ -33,7 +33,9 @@ ROW FORMAT SERDE
     'org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe' 
 STORED AS INPUTFORMAT 
     'org.apache.hadoop.hive.ql.io.SymlinkTextInputFormat'
-LOCATION 's3://mymanifestbucket/prefix123/symlink.txt'
+OUTPUTFORMAT 
+  'org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat'
+LOCATION 's3://mymanifestbucket/prefix123'
 ```
 
 

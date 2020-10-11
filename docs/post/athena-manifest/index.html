@@ -67,7 +67,9 @@ s3://otherbucket/baz/qux.parquet
     <span style="color:#e6db74">&#39;org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe&#39;</span> 
 STORED <span style="color:#66d9ef">AS</span> INPUTFORMAT 
     <span style="color:#e6db74">&#39;org.apache.hadoop.hive.ql.io.SymlinkTextInputFormat&#39;</span>
-<span style="color:#66d9ef">LOCATION</span> <span style="color:#e6db74">&#39;s3://mymanifestbucket/prefix123/symlink.txt&#39;</span>
+OUTPUTFORMAT 
+  <span style="color:#e6db74">&#39;org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat&#39;</span>
+<span style="color:#66d9ef">LOCATION</span> <span style="color:#e6db74">&#39;s3://mymanifestbucket/prefix123&#39;</span>
 </code></pre></div>
       </article>
 
