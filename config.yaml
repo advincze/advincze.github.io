@@ -5,6 +5,7 @@ author: "advincze"
 theme: "pixyll" # ok, simple
 relativeURLs: true
 publishDir: docs
+enableRobotsTXT: true
 
 indexes:
   tag: tags

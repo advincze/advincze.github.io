@@ -6,7 +6,16 @@
     <language>en-us</language>
     
     
-    <updated>Sat, 21 Mar 2015 06:34:54 &#43;0100</updated>
+    <updated>Sun, 11 Oct 2020 00:00:00 UTC</updated>
+    
+    <item>
+      <title>AWS Athena manifest</title>
+      <link>https://advincze.github.io/post/athena-manifest/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 UTC</pubDate>
+      
+      <guid>https://advincze.github.io/post/athena-manifest/</guid>
+      <description>Athena allows you to process data using sql that is stored in s3. Usually you would specify an s3 path (bucket + prefix) below which you store the objects that belong to the table. Files adhering to your input format would be processed when you access the data. Sometimes the location of your data does not adhere to this convention. The objects might be in different locations, or you would want to include some objects to a table or partition.</description>
+    </item>
     
     <item>
       <title>contact</title>
