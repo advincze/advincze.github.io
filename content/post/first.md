@@ -15,5 +15,5 @@ this is a blog.
 
     $ hugo help | grep foo
 
-![lil bub and grumpy cat](http://core0.staticworld.net/images/article/2013/08/lil_bub_grumpy_cat-100052024-gallery.jpg "da title")
+![lil bub and grumpy cat]( /images/lil_bub_grumpy_cat-100052024-gallery.jpg "da title")
 
