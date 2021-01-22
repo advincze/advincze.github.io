@@ -1,1 +1,0 @@
-# hugo-advincze.github.io
